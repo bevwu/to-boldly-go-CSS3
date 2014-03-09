@@ -1,0 +1,45 @@
+/* default.css */
+
+/* various styles to format divisions, text, and images */
+/* includes ID selectors */
+
+#container {
+	width:99%;
+	margin:0px;
+	/*border:6px solid black;*/
+} /*end div.container*/
+		
+#header {
+	padding:0.5em 0.5em 0em 0.5em;
+	clear:left;
+	border-bottom:8px solid black;
+	text-align: center;
+} /*end div.header*/
+
+#footer {
+	padding:0.5em 0.5em 0em 0.5em;
+	clear:left;
+	border-top:8px solid black;
+	text-align: center;
+} /*end div.footer*/
+		
+#content {
+	padding: 10px 10px 10px 20px;
+	margin-left: 12em;
+	border-left:8px solid black;
+} /*end div.content*/
+
+#navigation {
+	float: left;
+	width: 12em;
+	line-height: 6ex;
+} /*end div.navigation*/
+
+#navigation ol {
+	list-style-type: none;
+	}
+	
+#navigation a {
+	display: block;
+	padding: 3px 3px 3px 3px;
+	}
